@@ -1,7 +1,7 @@
 title: Hello World6
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://khoprujan.github.io/about/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -18,6 +18,8 @@ navigation:
    url: /about
  - title: Contact
    url: /contact
+ - title: test
+   url: /test
 
 social:
    github: brianmaierjr
