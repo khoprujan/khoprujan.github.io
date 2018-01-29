@@ -9,3 +9,6 @@ _site
 # Bundler
 .bundle/
 vendor/
+
+# init backup
+_config_init_backup.yml
