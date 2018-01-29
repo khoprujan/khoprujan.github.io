@@ -18,6 +18,15 @@ cover:  "/assets/instacode.png"
   <img src="/assets/images/falcon9_small.jpg" title="lightbox test">
 </a>
 
+<a href="/assets/images/falcon9_small.jpg" data-lightbox="" data-title="lightbox test">
+  <img src="/assets/images/falcon9_small.jpg" title="lightbox test">
+</a>
+
+<a href="/assets/images/falcon9_small.jpg" data-lightbox="" data-title="">
+  <img src="/assets/images/falcon9_small.jpg" title="">
+</a>
+
+
 <a href="/assets/images/falcon9_small.jpg" >
   <img src="/assets/images/falcon9_small.jpg">
 </a>
