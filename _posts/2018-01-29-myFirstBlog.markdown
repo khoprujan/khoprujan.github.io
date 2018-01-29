@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-01-29 18:40:00
 author: khoprujan
-categories: daily life
+categories: dailyLife
 tags:	hello
 cover:  "/assets/instacode.png"
 ---
