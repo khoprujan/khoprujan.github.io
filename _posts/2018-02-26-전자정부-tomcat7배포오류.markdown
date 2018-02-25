@@ -43,4 +43,4 @@ java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljav
 </a>
 
 
-[zetawiki]:   https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_Java_8_%EC%84%A4%EC%B9%98
+[zetawiki]:   https://goo.gl/He2sRX
