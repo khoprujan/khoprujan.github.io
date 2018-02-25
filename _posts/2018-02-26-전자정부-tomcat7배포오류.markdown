@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "전자정부프레임워크 / tomcat7 배포 오류 error log"
+date:   2018-01-29 18:40:00
+author: khoprujan
+categories: dailyLife
+tags:	hello
+cover:  "/assets/instacode.png"
+---
+
+## 전자정부프레임워크 / tomcat7 배포 오류 error log
+
+개발환경
+windows10
+java version "jdk1.8.0_161"
+spring 4.1.2.RELEASE
+egovframework3.6.0
+
+배포서버
+Ubuntu 16.04.3 LTS
+java version java-7-openjdk-amd64
+
+TOMCAT MANAGER에서 DEPLOY 시 오류메세지
+"FAIL - Failed to deploy application at context path"
+
+톰켓 로그 확인
+tail -f /usr/local/bin/apache-tomcat-8.0.24/logs/catalina.out
+
+2018-02-25 15:50:50,685 ERROR [org.springframework.web.context.ContextLoader] Context initialization failed
+java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
+
+해결방법
+java version "1.8.0_161" 설치
+https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_Java_8_%EC%84%A4%EC%B9%98
+
+/etc/default/tomcat7 파일의 JAVA_HOME PATH 주석을 풀고 JAVA8 PATH로 잡아준다.
+
+<a href="/assets/images/tomcatError.png" data-lightbox="large" data-title="lightbox test">
+  <img src="/assets/images/tomcatError.png" title="lightbox test">
+</a>
