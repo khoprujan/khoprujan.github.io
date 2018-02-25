@@ -4,7 +4,7 @@ title:  "전자정부프레임워크 / tomcat7 배포 오류 error log"
 date:   2018-01-29 18:40:00
 author: khoprujan
 categories: dailyLife
-tags:	hello
+tags:	tomcat7,java,egovframework
 cover:  "/assets/instacode.png"
 ---
 
@@ -12,9 +12,10 @@ cover:  "/assets/instacode.png"
 
 ### 개발환경
 windows10
-java version "jdk1.8.0_161"
-spring 4.1.2.RELEASE
-egovframework3.6.0
+
+java version "jdk1.8.0_161".
+spring 4.1.2.RELEASE.
+egovframework3.6.0.
 
 ### 배포서버
 Ubuntu 16.04.3 LTS
