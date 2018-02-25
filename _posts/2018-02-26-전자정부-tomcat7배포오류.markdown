@@ -34,9 +34,10 @@ tail -f /usr/local/bin/apache-tomcat-8.0.24/logs/catalina.out
 java.lang.NoSuchMethodError: java.util.concurrent.ConcurrentHashMap.keySet()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;
 
 ### 해결방법
-[java version "1.8.0_161" 설치](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_Java_8_%EC%84%A4%EC%B9%98).
+1. [java version "1.8.0_161" 설치]
+(https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_Java_8_%EC%84%A4%EC%B9%98).
 
-/etc/default/tomcat7 파일의 JAVA_HOME PATH 주석을 풀고 JAVA8 PATH로 잡아준다.
+2. /etc/default/tomcat7 파일의 JAVA_HOME PATH 주석을 풀고 JAVA8 PATH로 잡아준다.
 
 <a href="/assets/images/tomcatError.png" data-lightbox="large" data-title="lightbox test">
   <img src="/assets/images/tomcatError.png" title="lightbox test">
